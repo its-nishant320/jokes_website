@@ -54,19 +54,17 @@ body {
   align-self: center;
   font-size: 2rem;
   font-family: 'Raleway', sans-serif;
-  color: rgb(2, 2, 1);
+  color: rgb(255, 255, 255);
   border-radius: 55px;
-  border: 2px solid grey;
-  background-color: bisque;
+  border: 2px solid rgba(255,255,255,0.18);
+  background-color: rgba(28, 28, 38, 0.7);
   margin: 23px;
   padding: 33px;
-  box-shadow: 3px 2px 18px black;
+  box-shadow: 3px 2px 10px black;
   font-weight: bolder;
 }
 
 #myjokes:hover {
-  box-shadow: 3px 2px 18px black;
-  border: 2px solid rgb(206, 205, 205);
-  background-color: rgb(255, 216, 168);
+  border: 1px solid rgb(206, 205, 205);
   transition: 0.5s;
 }
